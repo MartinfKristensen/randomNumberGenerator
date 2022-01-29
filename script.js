@@ -1,6 +1,8 @@
 function generateNum() {
   var num1 = document.getElementById("num1").value;
   var num2 = document.getElementById("num2").value;
+  num1 = Math.ceil(num1);
+  num2 = Math.floor(num2);
   var p = document.getElementById("randomP");
 
   if (num1 == null || num1 == "" || num2 == null || num2 == "") {
