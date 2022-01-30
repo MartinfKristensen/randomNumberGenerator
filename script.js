@@ -8,6 +8,7 @@ function generateNum() {
     errorP.style.display = "block";
     errorP.style.color = "red";
     errorP.innerHTML = "Error: Empty Field";
+    p.innerHTML = "Error";
   } else {
     num1 = Math.floor(num1);
     num2 = Math.ceil(num2);
