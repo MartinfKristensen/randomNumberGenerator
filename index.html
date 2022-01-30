@@ -10,24 +10,28 @@
   <body>
     <div class="wrap">
       <div class="card">
-        <h1>Random Number Generator</h1>
-        <form action="">
-          <input
-            type="text"
-            placeholder="Lowest Number"
-            name="num1"
-            id="num1"
-          />
-          <input
-            type="text"
-            placeholder="Highest Number"
-            name="num2"
-            id="num2"
-          />
-          <br />
-          <p id="randomP">0</p>
-          <div class="btn" onclick="generateNum()">Generate</div>
-        </form>
+        <div class="hero-wrap">
+          <h1>Random Number Generator</h1>
+          <p id="errorP"></p>
+        </div>
+        <div class="card-wrap">
+          <form action="">
+            <input
+              type="text"
+              placeholder="Lowest Number"
+              name="num1"
+              id="num1"
+            />
+            <input
+              type="text"
+              placeholder="Highest Number"
+              name="num2"
+              id="num2"
+            />
+            <p id="randomP">0</p>
+            <div class="btn" onclick="generateNum()">Generate</div>
+          </form>
+        </div>
       </div>
     </div>
     <script src="script.js"></script>
